@@ -47,5 +47,9 @@ bot.on('message', message =>{
         break;
         case 'bicycle':
             message.channel.send("https://en.wikipedia.org/wiki/Flowchart")
+        break;
+        case 'bestfriend':
+            message.channel.send("https://www.w3schools.com/")
+        break;
     }
 })
