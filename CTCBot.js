@@ -1,8 +1,6 @@
 const {Client, MessageAttachment} = require('discord.js');
 const bot = new Client();
 
-const token = "Njg4NTI4NDY4MDI3MTEzNTgz.Xm2sKg.ERV9q5Dr4OVk-jghAeUcG9MjyVM";
-
 const PREFIX = '!';
 var version ='1.0.1';
 
@@ -10,7 +8,7 @@ bot.on('ready', () =>{
     console.log("CTCBot is online");
 });
 
-bot.login(token);
+bot.login(process.env.BOT_TOKEN);
 
 bot.on('guildMemberAdd', member =>{
     const channel = member.guild.channels.cache.find(ch => ch.name === 'general_questions');
