@@ -1,1 +1,1 @@
-# -CTCBot
+# CTCBot
