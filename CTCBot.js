@@ -43,7 +43,7 @@ bot.on('message', message =>{
             message.channel.send(" Activity follows the CTC schedule as per usual.\nM 12:30-14:30\nT 14:30-16:30\nW 16:30-18:30\nR 18:30-20:30\nF 17:30-19:30 \nThe server functions as a virtual CTC room. \nTake a look around. There is a mentor (look for orange name tags) for each voice channel active during the above times.\nIf you have any questions feel free to ask in the general_questions text channel:)")
         break;
         case 'commands':
-            message.channel.send("I am at your service. Say \'hello\' or ask me for \'info\' or the course \'outline\'")
+            message.channel.send("I am at your service. Say \'hello\' or ask me for \'info\', the course \'outline\' or about my 'bestfriend'.")
         break;
         case 'bicycle':
             message.channel.send("https://en.wikipedia.org/wiki/Flowchart")
