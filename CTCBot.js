@@ -36,7 +36,7 @@ bot.on('message', message =>{
         case 'hello':
             message.channel.send("Hello! Server activity follows the usual CTC schedule:)")
         break;
-        case 'bicycle':
+        case 'amir':
             message.channel.send("ahchinaei@eecs.yorku.ca")
         break;
         case 'info':
@@ -45,5 +45,7 @@ bot.on('message', message =>{
         case 'commands':
             message.channel.send("I am at your service. Say \'hello\' or ask me for \'info\' or the course \'outline\'")
         break;
+        case 'bicycle':
+            message.channel.send("https://en.wikipedia.org/wiki/Flowchart")
     }
 })
