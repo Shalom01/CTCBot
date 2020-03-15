@@ -1,0 +1,15 @@
+{
+  "name": "ctcbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "CTCBot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shalom",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.0.2",
+    "request": "2.88.2"
+  }
+}
