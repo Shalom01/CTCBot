@@ -51,5 +51,8 @@ bot.on('message', message =>{
         case 'bestfriend':
             message.channel.send("https://www.w3schools.com/")
         break;
+        case 'video':
+            message.channel.send("https://support.discordapp.com/hc/en-us/articles/115000982752-Screen-sharing-Video-Calls")
+        break;
     }
 })
