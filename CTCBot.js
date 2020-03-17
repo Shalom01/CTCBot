@@ -52,7 +52,7 @@ bot.on('message', message =>{
             message.channel.send("https://www.w3schools.com/")
         break;
         case 'video':
-            message.channel.send("https://www.discordapp.com/channels/688161995530174469/ \'Enter your channel ID here (left click on your voice channel)\'")
+            message.channel.send("To start a video call, enter the link \nhttps://www.discordapp.com/channels/688161995530174469/ \'Enter your channel ID here\'\nTo access the channel ID, left click on the channel you are using and select channel ID:)")
         break;
     }
 })
